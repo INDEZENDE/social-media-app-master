@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title></title>
+  </head>
+  <body>
+    <style >
+    h1 {color:red;}
+    p {color:blue;}
+    </style>
+    <h1>Inicia sesión</h1>
+    <button  id="login">Inicia con google</button>
+    <div id="root"></div>
+    <button id="guardar">Guardar</button>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyCP1wy-Gj8_phZI4Xro7_ViP9LGI5aSot8",
+    authDomain: "s3-redsocial.firebaseapp.com",
+    databaseURL: "https://s3-redsocial.firebaseio.com",
+    projectId: "s3-redsocial",
+    storageBucket: "s3-redsocial.appspot.com",
+    messagingSenderId: "143649909766"
+  };
+  firebase.initializeApp(config);
+  </script>
+  <script type="text/javascript" src="js/app.js">
+
+</script>
+  </body>
+</html>
